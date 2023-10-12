@@ -1,4 +1,5 @@
+package RepositorioFiguras;
 
-public interface Figura{
-
+public interface Figura {
+    double calcularArea();
 }
