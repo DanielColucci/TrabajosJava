@@ -10,7 +10,6 @@ public class Rectangulo implements Figura {
     @Override
     public double calcularArea() {
         double area = base * altura;
-        System.out.println("El area del Rectangulo es: ");
         return area; 
 
     }
