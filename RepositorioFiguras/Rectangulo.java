@@ -1,5 +1,18 @@
-public class Rectangulo {
+public class Rectangulo implements Figura {
+    double base;
+    double altura;
 
-    System.out.println("Trabajando");
+    public Rectangulo(double base, double altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+
+    @Override
+    public double calcularArea() {
+        double area = base * altura;
+        System.out.println("El area del Rectangulo es: ");
+        return area; 
+
+    }
     
 }
