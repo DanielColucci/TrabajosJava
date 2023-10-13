@@ -15,5 +15,6 @@ public class Main {
         System.out.println("Área del Triangulo: " + triangulo.calcularArea());
         System.out.println("Área del Pentagono: " + pentagono.calcularArea()); 
         System.out.println("Área del Trapecio: " + trapecio.calcularArea());
+        
        }
 }

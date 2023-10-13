@@ -7,9 +7,8 @@ public class Triangulo implements Figura {
         this.base = base;
         this.altura = altura;
     }
-
-    // holi
     @Override
     public double calcularArea() {
         return (base * altura) / 2;
     }
+}

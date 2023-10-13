@@ -13,4 +13,5 @@ public class Rectangulo implements Figura {
         return area; 
 
     }
+}
     
