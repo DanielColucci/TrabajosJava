@@ -1,3 +1,4 @@
+
 public class Cuadrado implements Figura {
     private double lado;
 
@@ -9,4 +10,4 @@ public class Cuadrado implements Figura {
     public double calcularArea() {
         return lado * lado;
     }
-}
+

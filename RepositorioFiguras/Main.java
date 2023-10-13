@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
         Circulo circulo = new Circulo(5);
@@ -7,11 +8,12 @@ public class Main {
         Pentagono pentagono = new Pentagono(12, 17);
         Trapecio trapecio = new Trapecio(9, 10, 15);
 
+
         System.out.println("Área del círculo: " + circulo.calcularArea());
         System.out.println("Área del Rectangulo: " + rectangulo.calcularArea());
         System.out.println("Área del Cuadrado: " + cuadrado.calcularArea());
         System.out.println("Área del Triangulo: " + triangulo.calcularArea());
-        System.out.println("Área del Pentagono: " + pentagono.calcularArea());
+        System.out.println("Área del Pentagono: " + pentagono.calcularArea()); 
         System.out.println("Área del Trapecio: " + trapecio.calcularArea());
-    }
+       }
 }
