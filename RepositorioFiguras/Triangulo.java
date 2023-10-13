@@ -1,3 +1,4 @@
+
 public class Triangulo implements Figura {
     private double base;
     private double altura;
@@ -12,4 +13,3 @@ public class Triangulo implements Figura {
     public double calcularArea() {
         return (base * altura) / 2;
     }
-}
